@@ -18,6 +18,12 @@
         .key{color:#e87c57;font-weight:bold;text-decoration:underline;}
         .btn{display:inline-block;background:linear-gradient(90deg,#ffb997,#ff9f7b);color:#fff;font-weight:bold;padding:12px 28px;border-radius:30px;text-decoration:none;margin:8px 5px;transition:0.3s;box-shadow:0 3px 8px #ffd0bc;}
         .btn:hover{transform:translateY(-3px);box-shadow:0 6px 15px #ffc2a8;}
+        h3{color:#d46b47;font-size:20px;margin:18px 0 10px;}
+        table{width:100%;border-collapse:collapse;margin:15px 0;}
+        th,td{border:1px solid #ffd8c8;padding:12px;text-align:left;color:#7a5a4a;font-size:15px;line-height:1.7;}
+        th{background:#ffefe4;color:#d46b47;}
+        .src{font-size:14px;color:#b08a78;margin-top:20px;}
+        .src a{color:#d46b47;}
     </style>
 </head>
 <body>
@@ -41,6 +47,34 @@
             <br/>
             <a class="btn" href="note.html">返回名著精读</a>
             <a class="btn" href="menu.html">查看全部投资概念</a>
+            <a class="btn" href="rules.html">巴菲特 20 条法则</a>
+        </div>
+        <div class="card">
+            <h1>股东信阅读指南</h1>
+            <p>巴菲特的股东信跨越近 50 年，按主题挑着读最有效率。原文可在 <a class="key" href="https://www.berkshirehathaway.com/letters/letters.html" target="_blank" rel="noopener">伯克希尔官网</a> 免费阅读。</p>
+            <h3>🔎 按主题找信</h3>
+            <table>
+                <tr><th>主题</th><th>推荐年份</th><th>核心要点</th></tr>
+                <tr><td><a class="key" href="intrinsic.html">内在价值</a></td><td>1983、1994、2000</td><td>企业到底值多少钱</td></tr>
+                <tr><td><a class="key" href="circle.html">能力圈</a></td><td>1996、1999、2008</td><td>只做自己看得懂的事</td></tr>
+                <tr><td><a class="key" href="margin.html">安全边际</a></td><td>1992、2008、2011</td><td>以低于价值的价格买入</td></tr>
+                <tr><td><a class="key" href="mrmarket.html">市场情绪</a></td><td>1987、1997、2008</td><td>恐惧和贪婪如何扭曲价格</td></tr>
+                <tr><td><a class="key" href="moat.html">经济护城河</a></td><td>1995、1999、2007</td><td>持久的竞争优势</td></tr>
+                <tr><td>何时卖出</td><td>1998、2007、2020</td><td>巴菲特的卖出纪律</td></tr>
+                <tr><td>管理层质量</td><td>1983、1989、2010</td><td>什么样的管理者值得托付</td></tr>
+                <tr><td>保险浮存金</td><td>1985、2004、2013</td><td>伯克希尔的秘密武器</td></tr>
+                <tr><td>收购标准</td><td>1981、1986、2000、2014</td><td>如何评估买下一家公司</td></tr>
+            </table>
+            <h3>🌊 危机年份必读</h3>
+            <table>
+                <tr><th>年份</th><th>市场背景</th><th>核心教训</th></tr>
+                <tr><td>1987</td><td>股灾“黑色星期一”</td><td>长期思维，不被暴跌吓退</td></tr>
+                <tr><td>1999</td><td>互联网泡沫顶点</td><td>警惕不可持续的高回报预期</td></tr>
+                <tr><td>2001</td><td>互联网泡沫破裂</td><td>“潮水退去，才知道谁在裸泳”</td></tr>
+                <tr><td>2008</td><td>全球金融危机</td><td>“别人贪婪时恐惧，别人恐惧时贪婪”</td></tr>
+                <tr><td>2020</td><td>新冠疫情</td><td>清仓航空股，“永远不要做空美国”</td></tr>
+            </table>
+            <p class="src">年份索引参考开源项目 <a href="https://github.com/henu-wang/buffett-letters-index" target="_blank" rel="noopener">henu-wang/buffett-letters-index</a>，经中文改写。更多方法论见 <a href="rules.html">巴菲特 20 条投资法则</a>。</p>
         </div>
     </div>
 </body>
